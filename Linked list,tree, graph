@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+
+    printf("1. Array\n");
+    printf("2. Linked List\n");
+    printf("3. Tree\n");
+    printf("4. Graph\n");
+
+    printf("Enter your choice: ");
+    scanf("%d", &n);
+
+    switch(n)
+    {
+        case 1:
+            printf("Static - Linear - Non-Primitive Data Structure");
+            break;
+
+        case 2:
+            printf("Dynamic - Linear - Non-Primitive Data Structure");
+            break;
+
+        case 3:
+            printf("Dynamic - Non-Linear - Non-Primitive Data Structure");
+            break;
+
+        case 4:
+            printf("Dynamic - Non-Linear - Non-Primitive Data Structure");
+            break;
+
+        default:
+            printf("Invalid Choice");
+    }
+
+    return 0;
+}
